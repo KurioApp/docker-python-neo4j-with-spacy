@@ -1,4 +1,4 @@
-FROM gcr.io/kurio-dev/python-neo4j
+FROM asia.gcr.io/kurio-dev/python-neo4j
 
 RUN pip install -U pipenv \
   && export PATH=$(realpath ~)/.local/bin:$PATH \
