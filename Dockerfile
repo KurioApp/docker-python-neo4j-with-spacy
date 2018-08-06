@@ -10,4 +10,4 @@ RUN pip install -U pipenv \
     murmurhash==0.28.0 \
     ujson==1.35 \
     regex==2017.4.5 \
-  && pip install git+https://github.com/KurioApp/spaCy.git@84d3393e776b5d8b3aa22286ce0ee1025c200ff2#egg=spacy
+  && pip install git+https://github.com/KurioApp/spaCy.git@5fac422b79a8adab9c568b17e068077648321f00#egg=spacy
